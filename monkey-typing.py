@@ -1,7 +1,9 @@
 def count_words(text, words):
-    l = list(words)
-    for i in l:
-        if i in text :return l.index(i)
+    counter = 0
+    for i in words:
+        if text.lower().find(i) != -1:
+            counter += 1
+    return counter
         
 if __name__ == '__main__':
     #These uu"1sserts" using only for self-checking and not necessary for auto-testing
