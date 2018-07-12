@@ -3,12 +3,12 @@ def count_gold(pyramid):
     Return max possible sum in a path from top to bottom
     """
 
-    #replace this for solution
+    # replace this for solution
     return 0
 
 
 if __name__ == '__main__':
-    #These "asserts" using only for self-checking and not necessary for auto-testing
+    # These "asserts" using only for self-checking and not necessary for auto-testing
     assert count_gold((
         (1,),
         (2, 3),

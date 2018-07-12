@@ -6,7 +6,7 @@ def checkio(data):
     count = collections.Counter(data)
     print count
     for k, v in count.items():
-        if(v == 1):
+        if v is 1:
             data.remove(k)
     return data
 #Some hints
