@@ -16,4 +16,3 @@ if __name__ == '__main__':
     print("Start the long test")
     assert checkio(u"a" * 9000 + u"b" * 1000) == "a", "Long."
     print("The local tests are done.")
-/html/body/form/div/table[2]/tbody/tr[2]/td[2]
